@@ -21,7 +21,10 @@ function getTotal() {
   document.getElementById("total").innerHTML = `R$ ${total.toFixed(2)}`;
 
 }
-  
+
+document.getElementById("transactions-button").addEventListener("click", function() {
+  window.location.href = "transactions.html"
+})
 
 function getCashIn() {
   const transactions = data.transactions;
