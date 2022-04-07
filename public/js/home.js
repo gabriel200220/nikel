@@ -159,10 +159,6 @@ document.getElementById("transaction-form").addEventListener("submit", function 
     getCashOut();
     getTotal();
 
-    alert("Lançamento adicionado com sucesso.");
-
-    getTransactions();
-
     alert("Lançamento adicionado com sucesso!");
   });
 
